@@ -1,7 +1,8 @@
 1. Clone the Repository
 ```bash
-git clone <[YOUR_REPO_URL](https://github.com/Chinmay-OO7/240KW-M2P3_4.git)>
+git clone https://github.com/Chinmay-OO7/240KW-M2P3_4.git
 ```
+
 2. Start the Backend (FastAPI)
 
 Move into the backend folder:
@@ -25,7 +26,9 @@ Run the backend server
 uvicorn main:app --reload
 ```
 Backend will run at:
+```bash
 http://127.0.0.1:8000
+```
 
 3. Start the Frontend (React)
 
@@ -42,10 +45,6 @@ Run the frontend:
 npm run dev
 ```
 Frontend will run (typically) at:
+```bash
 http://localhost:5173
-
-✔️ Done!
-
-Backend: http://127.0.0.1:8000
-Frontend: http://localhost:5173
-
+```
