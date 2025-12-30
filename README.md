@@ -1,9 +1,9 @@
-**1. Clone the Repository**
+##1. Clone the Repository
 ```bash
 git clone https://github.com/Chinmay-OO7/240KW-M2P3_4.git
 ```
 
-**2. Start the Backend (Python, FastAPI & SQLite)**
+##2. Start the Backend (Python, FastAPI & SQLite)
 
 Move into the backend folder:
 ```bash
@@ -30,7 +30,7 @@ Backend will run at:
 http://127.0.0.1:8000
 ```
 
-**3. Start the Frontend (Node & React)**
+##3. Start the Frontend (Node & React)
 
 Open a new terminal, then:
 ```bash
@@ -48,4 +48,5 @@ Frontend will run (typically) at:
 ```bash
 http://localhost:5173
 ```
+
 
