@@ -1,53 +1,41 @@
-## 🚀 1. Clone the Repository
+1. Clone the Repository
+git clone <[YOUR_REPO_URL](https://github.com/Chinmay-OO7/240KW-M2P3_4.git)>
 
-```bash
-git clone <YOUR_REPO_URL>
-cd <YOUR_PROJECT_FOLDER>
-🛠️ 2. Start the Backend (FastAPI)
+2. Start the Backend (FastAPI)
+
 Move into the backend folder:
-
-bash
-Copy code
 cd backend
+
 Create a virtual environment
-bash
-Copy code
 python -m venv .venv
+
 Activate the virtual environment (Windows)
-bash
-Copy code
 .venv\Scripts\activate
+
 Install dependencies
-bash
-Copy code
 pip install -r requirements.txt
+
 Run the backend server
-bash
-Copy code
 uvicorn main:app --reload
-Backend runs at:
 
-cpp
-Copy code
+Backend will run at:
 http://127.0.0.1:8000
-🌐 3. Start the Frontend (React)
+
+3. Start the Frontend (React)
+
 Open a new terminal, then:
-
-bash
-Copy code
 cd frontend
+
 Install dependencies:
-
-bash
-Copy code
 npm install
-Run the development server:
 
-bash
-Copy code
+Run the frontend:
 npm run dev
-Frontend typically runs at:
 
-arduino
-Copy code
+Frontend will run (typically) at:
 http://localhost:5173
+
+✔️ Done!
+
+Backend: http://127.0.0.1:8000
+Frontend: http://localhost:5173
